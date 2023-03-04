@@ -68,6 +68,23 @@ section.banner, .presentacion{
     margin-bottom: 10px;
 }
 
+/**carrusel **/
+section.carousel{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(/img/banner1.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-repeat: repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #faf9f9;
+ }
+ section.carousel h1{
+    padding: 5%;
+ }
 
 
 
