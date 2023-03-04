@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+.bg-black{
+    background-color: #000;
+}
+.list-group{
+    --bs-list-group-bg:transparent;
+}
+nav div ul li i:hover {
+    --bs-text-opacity: 1;
+    color: #f80c0c !important;
+}
+section.banner, .presentacion{
+    background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
+    url(/img/banner1.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #fcfafa;
+}
+ .banner h1{
+    font-size: 4.5rem;
+}
+.banner h3{
+    padding-top: 15%;
+    font-size: 2rem;
+}
+.banner h2{
+   font-size: 3.4rem;
+}
+.presentacion img {
+    margin-top: 5rem;
+}
+.presentacion .col-9{
+    margin-top: 2rem;
+    
+}
+/**interes**/
+.col h3{
+    font-size: 3rem;
+    font-family: 'Righteous';
+    margin-left: 20rem;
+}
+.col-10 .contenedor-intereses{
+    display: inline-block;
+    margin-left: 40%;
+}
+.col .contenedor-intereses .interes{
+    background-color: #252A2E;
+    border-radius: 20%;
+
+    margin: 0% 5% 5% 0%;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+}
+.col .contenedor-intereses .interes:hover{
+    background-color: red;
+}
+.col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
