@@ -186,6 +186,33 @@ section.banner, .presentacion, section.carousel, .barra-progress{
   input[type="submit"]:hover {
         background:rgb(0, 250, 21);
   }
+
+
+  /**footer **/
+  footer {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .social-media li {
+    margin-right: 10px;
+  }
+
+  .social-media li:last-child {
+    margin-right: 0;
+  }
+
+  .social-media a {
+    color: #fff;
+    font-size: 18px;
+  }
   
 
 
